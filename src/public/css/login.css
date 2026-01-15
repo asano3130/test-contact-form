@@ -1,0 +1,112 @@
+.auth {
+    max-width: 100%;
+    margin: 120px auto;
+    padding: 40px;
+    border: 1px solid rgba(139, 121, 105, 1);
+    text-align: center;
+}
+
+.auth h2 {
+    margin-bottom: 30px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: rgba(139, 121, 105, 1);
+    opacity: 1;
+}
+
+.auth__box {
+    width: 736px;
+    min-height: 579px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(197, 185, 176, 1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+.auth__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.form__group {
+    width: 100%;
+    max-width: 445px;
+}
+
+.form__group label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: rgba(139, 121, 105, 1);
+    opacity: 1;
+}
+
+/* 入力欄（input） */
+.form__group input {
+    width: 100%;
+    max-width: 445px;
+    height: 55px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: rgba(244, 244, 244, 1);
+    border: none;
+    font-family: 'Inika', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: rgba(139, 121, 105, 1);
+    opacity: 1;
+}
+
+/* placeholder の文字 */
+.form__group input::placeholder {
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: rgba(190, 177, 166, 1);
+    opacity: 1;
+}
+
+.auth__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    /* 設計書：内包サイズ */
+    padding: 10px 40px;
+    min-width: 160px;
+    /* 内包160px */
+    height: 46px;
+    /* 内包46px */
+
+    gap: 10px;
+
+    background-color: rgba(130, 117, 106, 1);
+    color: #fff;
+
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Inika', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+
+    opacity: 1;
+}

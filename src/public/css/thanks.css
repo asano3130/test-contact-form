@@ -1,0 +1,52 @@
+.thanks {
+    width: 1512px;
+    height: 982px;
+    position: relative;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks__bg {
+    position: absolute;
+    top: 319px;
+    left: 66px;
+    width: 1381px;
+    height: 365px;
+    font-size: 200px;
+    font-weight: bold;
+    color: rgba(139,121,105,0.05);
+    opacity: 1;
+    line-height: 1;
+}
+
+.thanks__content {
+    position: absolute;
+    top: 461px;
+    left: 501px;
+    width: 510px;
+    height: 39px;
+    text-align: center;
+    opacity: 1;
+}
+
+.thanks__content h2 {
+    margin: 0;
+    font-size: 24px;
+    color: rgba(139, 121, 105, 1);
+}
+
+.thanks__btn {
+    position: absolute;
+    top: 555px;
+    left: 686px;
+    box-sizing: content-box;
+    width: 140px;
+    height: 46px;
+    padding: 10px 40px;
+    background-color: rgba(130,117,106,1);
+    text-decoration: none;
+    text-align: center;
+    opacity: 1;
+}
